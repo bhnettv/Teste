@@ -58,13 +58,13 @@ class App extends Component {
         //         return 0;
         //     })
         // });
-        this.setState({channels: ['http://109.71.162.112/live/sd.jasminchannel.stream/chunklist_w233748568.m3u8']})
+        this.setState({channels: ['https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/chunklist_w1869403172_b1896000.m3u8']})
     }
 
     getSecureStreamingUrl(channel) {
         // const uriParts = channel.mjh_master.split('/');
         // const uri = uriParts[uriParts.length - 1];
-        return 'http://109.71.162.112/live/sd.jasminchannel.stream/chunklist_w233748568.m3u8';
+        return 'https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/chunklist_w1869403172_b1896000.m3u8';
     }
 
     chooseChannel(e, channel) {
